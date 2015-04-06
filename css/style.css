@@ -1,0 +1,31 @@
+body {
+	background-image:url(../images/background.png); 
+	background-position-x:center; 
+	font-family:"Helvetica";
+}
+
+.top-div {
+	padding-top:50px;
+}
+
+.white-text {
+	color:white;
+}
+
+.bottom-padding {
+	padding-bottom: 150px;
+}
+
+.heading {
+	color:rgba(255,255,255,0.8)
+}
+
+.gif {
+	opacity:0.2;
+	transition:all .8s ease-in-out;
+}
+
+.gif:hover {
+	transform:scale(1.1);
+	opacity:1
+};
